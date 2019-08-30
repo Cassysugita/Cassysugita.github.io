@@ -1,1 +1,29 @@
+list-style-type: none;
 
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  background-color: #333;
+
+ float: left;
+
+display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+ background-color: #111;
+background-color: lightblue;
+color: white;
+
+  text-align: center;
+font-family: lobster;
+
+  font-size:50px;
