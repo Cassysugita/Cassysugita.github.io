@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cassy Sugita :)</title>    
+        
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        
+        <body style="background-color: antiquewhitel"></body>
+        
+    </head>
+    
+<title>Cassy Sugita :)</title>
+<body>
+
+<div class="topnav">
+  <a class="active" href="imdex.html">Profile</a>
+  <a href="Portfolio.html">Portfolio</a>
+  <a href="music.html">Music</a>
+</div>
+
+<h1>Profile</h1>
+<p>paragraph.</p>
+
+</body>
+</html>
