@@ -1,10 +1,14 @@
-html {
+html {/* the color #FFD9F4 is the default color of the uncoded background, thats why when you scroll up or down on my webpages
+        there will be a small sliver of pink.*/
     background: #FFD9F4;
     background-image: 
     -webkit-font-smoothing: antialiased;
 }
 
 body.home {
+    /* the main reference for home/profile page, automatically makes the text the desired color, font, font size. Margins 
+        also allow me to center everything so that the text and images are not so stretchd out from one side of the screen
+        to the other. */
     background: #FFD9FE;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
@@ -15,7 +19,9 @@ body.home {
     max-width: 1600px;
     padding: 2em 2em 4em;
 }
-body.portfolio {    
+body.portfolio {  
+    /* the main reference for portfolio page, automatically makes the background a nice blue color despite the default pink
+        from before. Also controls the text font, size, and color. */
     background: #D9F1FF;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
@@ -27,6 +33,8 @@ body.portfolio {
     padding: 2em 2em 4em;
 }
 body.music  {    
+    /* the main referance for music page, automatically makes background a light purple color despite the default pink. 
+    Controls the text font, size, and font color.*/
     background: #DED9FF ;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
@@ -39,19 +47,21 @@ body.music  {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    /*  the color #222 makes all the headers the same black color as well as sizes.*/
     color: #222;
     font-weight: 600;
     line-height: 1.3;
 }
 
-h2 {
+h2 {/* basically the same as the one above but it has a margin-top too.*/
     color: #222;
     font-weight: 600;
     line-height: 1.3;
     margin-top: 1.3em;
 }
 
-a {
+a {/* this is the default color of the links before I changed them to black, wasn't sure if it would change things when if
+    I deleted it so I just left it. */
     color: #0083e8;
 }
 
@@ -83,7 +93,8 @@ img {
         filter: grayscale(0%);
     }
 }
-
+/* This is for the line/divider under the main header and this determines the color of the line, how wide it is, how tall 
+    it is, etc.*/
 hr.common {width: 300px;
 margin-left: auto;
 margin-right: auto;
@@ -93,7 +104,7 @@ background-color:#111;
 opcaity: 0.5;
 }
 
-
+        /* notes for color reference aka color key */
         #DED9FF: lavender - music
         #D9F1FF: light blue - portfolio
         #FFD9FE: light pink - home
