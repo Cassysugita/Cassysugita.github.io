@@ -31,6 +31,31 @@ body.portfolio {
     margin: 0 auto;
     max-width: 1600px;
     padding: 2em 2em 4em;
+        
+   
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+</style>	
+        
 }
 body.music  {    
     /* the main referance for music page, automatically makes background a light purple color despite the default pink. 
